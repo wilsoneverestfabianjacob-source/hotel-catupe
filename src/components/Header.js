@@ -124,9 +124,9 @@ function Header() {
               </svg>
             </div>
 
-            {/* TEXTO HOTEL WILSON COM COR ANIMADA */}
+            {/* TEXTO HOTEL CATUPE COM COR ANIMADA */}
             <h1 className="logo" style={{ color: currentColor }}>
-              HOTEL WILSON
+              HOTEL CATUPE
             </h1>
           </NavLink>
         </div>
