@@ -1,0 +1,163 @@
+/* =================== NOVO RODAPÉ MÓVEL (TEAK) =================== */
+.footer-teak {
+  width: 100%;
+  height: 250px;
+  background-color: #3E3934;
+  position: relative;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+}
+
+.footer-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-21px);
+}
+
+.footer-block {
+  width: 100%;
+  max-width: 800px;
+  margin-left: -0.5cm;
+  margin-right: 9.3cm;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-text-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.footer-text-link:hover {
+  text-decoration: underline;
+}
+
+.footer-gap {
+  height: 12px;
+}
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  pointer-events: none;
+}
+
+.footer-icon-placeholder {
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+
+.footer-icon-location {
+  background-image: url("../assets/footer-icons/location.png");
+}
+
+.footer-icon-phone {
+  background-image: url("../assets/footer-icons/phone.png");
+}
+
+.footer-icon-mail {
+  background-image: url("../assets/footer-icons/mail.png");
+}
+
+.footer-phone-row {
+  display: flex;
+  align-items: center;
+}
+
+.footer-line-inline {
+  flex-shrink: 0;
+}
+
+.footer-social {
+  margin-left: 16cm;
+  display: flex;
+  gap: 14px;
+}
+
+.social-icon {
+  width: 26px;
+  height: 26px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.social-icon-fb {
+  background-image: url("../assets/footer-icons/facebook.png");
+}
+
+.social-icon-ig {
+  background-image: url("../assets/footer-icons/instagram.png");
+}
+
+.social-icon-wa {
+  background-image: url("../assets/footer-icons/whatsapp.png");
+}
+
+/* =================== RODAPÉ INSTITUCIONAL =================== */
+.footer-merlin {
+  width: 100%;
+  height: 44px;
+  background-color: #3E3934;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-legal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(-0.4cm);
+  font-family: "Castellar", serif;
+  font-size: 10px;
+  font-weight: 0;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.footer-spacer {
+  display: inline-block;
+  width: 1.2cm;
+}
+
+/* LINKS LEGAIS CLICÁVEIS */
+.footer-legal-link {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-legal-link:hover {
+  text-decoration: underline;
+}

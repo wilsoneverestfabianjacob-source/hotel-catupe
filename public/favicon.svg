@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <mask id="hc-cutout-ret">
+      <circle cx="50" cy="50" r="50" fill="white" />
+
+      <!-- H -->
+      <path
+        d="M30 -2 V102 M30 50 H70 M70 -2 V102"
+        stroke="black"
+        stroke-width="10"
+        fill="none"
+        stroke-linecap="butt"
+      />
+
+      <!-- C -->
+      <path
+        d="M100 32 Q60 15 44 32 Q34 50 44 68 Q60 85 100 68"
+        stroke="black"
+        stroke-width="10"
+        fill="none"
+        stroke-linecap="butt"
+      />
+    </mask>
+  </defs>
+
+  <circle cx="50" cy="50" r="50" fill="#B2915F" mask="url(#hc-cutout-ret)" />
+</svg>

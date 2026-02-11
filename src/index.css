@@ -1,0 +1,89 @@
+/* =================== IMPORTAÇÃO DAS FONTES =================== */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+/* CASTELLAR — fonte nativa do Windows */
+@font-face {
+  font-family: 'Castellar';
+  src: local('Castellar');
+}
+
+/* =================== RESET =================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* PROTEÇÃO GLOBAL */
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+/* =================== FONTES GLOBAIS =================== */
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Impede toque longo em mobile */
+  -webkit-touch-callout: none;
+}
+
+/* =================== TÍTULOS, LOGO, MENUS, BOTÕES, MOEDA =================== */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Castellar', serif;
+}
+
+.logo,
+.nav a,
+button,
+.currency-label {
+  font-family: 'Castellar', serif;
+}
+
+/* =================== FONTES PARA CÓDIGO =================== */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* =================== LINKS =================== */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* =================== ESPAÇAMENTO ENTRE HEADER FIXO E FOOTER FIXO =================== */
+main {
+  margin-top: 150px;     /* altura total do header */
+  padding-bottom: 44px;  /* altura do footer */
+}
+
+/* ============================================================
+   PROTEÇÃO GLOBAL DO SITE HOTEL CATUPE
+   Aplica-se a textos, imagens, SVGs, ícones e futuros conteúdos
+   ============================================================ */
+
+/* Impede arrastar e clicar imagens */
+img,
+.protected-img {
+  pointer-events: none;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+/* Impede interação com SVGs inline */
+svg,
+.svg-wrapper svg {
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Impede seleção e clique em background-images */
+.bg-protected {
+  pointer-events: none;
+  user-select: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
